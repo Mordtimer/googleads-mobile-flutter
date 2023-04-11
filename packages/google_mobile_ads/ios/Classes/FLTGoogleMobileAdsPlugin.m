@@ -194,7 +194,7 @@
 }
 
 - (UIViewController *)rootController {
-  return UIApplication.sharedApplication.delegate.window.rootViewController;
+  return UIApplication.sharedApplication.keyWindow.rootViewController;
 }
 
 - (void)handleMethodCall:(FlutterMethodCall *)call
